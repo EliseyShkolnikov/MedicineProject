@@ -1,0 +1,341 @@
+object Form1: TForm1
+  Left = 368
+  Height = 533
+  Top = 449
+  Width = 790
+  Caption = 'TestCOM'
+  ClientHeight = 533
+  ClientWidth = 790
+  OnClose = FormClose
+  OnCreate = FormCreate
+  SessionProperties = 'CheckBox1.Checked;CheckBox2.Checked;CheckBox3.Checked;CheckBox4.Checked;CheckBox7.Checked;CheckBox8.Checked;CheckBox9.Checked;ComboBox1.Text;Edit1.Text;Edit2.Text;Edit3.Text;Edit4.Text;Edit5.Text;ComboBox2.Text'
+  LCLVersion = '1.0.14.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 533
+    Top = 0
+    Width = 368
+    Align = alLeft
+    ClientHeight = 533
+    ClientWidth = 368
+    TabOrder = 0
+    object ComboBox1: TComboBox
+      Left = 8
+      Height = 21
+      Top = 25
+      Width = 72
+      ItemHeight = 13
+      OnDropDown = ComboBox1DropDown
+      TabOrder = 0
+    end
+    object ComboBox2: TComboBox
+      Left = 87
+      Height = 21
+      Top = 24
+      Width = 104
+      ItemHeight = 13
+      OnDropDown = ComboBox2DropDown
+      TabOrder = 1
+    end
+    object Button1: TButton
+      Left = 204
+      Height = 41
+      Top = 7
+      Width = 84
+      Caption = 'Подключить'
+      OnClick = Button1Click
+      TabOrder = 2
+    end
+    object Label1: TLabel
+      Left = 8
+      Height = 14
+      Top = 8
+      Width = 30
+      Caption = 'Порт:'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 88
+      Height = 14
+      Top = 7
+      Width = 53
+      Caption = 'Скорость:'
+      ParentColor = False
+    end
+    object Edit1: TEdit
+      Left = 8
+      Height = 21
+      Top = 96
+      Width = 264
+      OnChange = Edit1Change
+      TabOrder = 3
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 14
+      Top = 80
+      Width = 87
+      Caption = 'Передать текст:'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 8
+      Height = 14
+      Top = 120
+      Width = 253
+      Caption = 'Передать байты (через запятую, # или $ в Hex):'
+      ParentColor = False
+    end
+    object Edit2: TEdit
+      Left = 8
+      Height = 21
+      Top = 136
+      Width = 264
+      OnChange = Edit1Change
+      TabOrder = 4
+    end
+    object CheckBox1: TCheckBox
+      Left = 280
+      Height = 17
+      Top = 136
+      Width = 40
+      Caption = '#13'
+      OnChange = Edit1Change
+      TabOrder = 5
+    end
+    object CheckBox2: TCheckBox
+      Left = 320
+      Height = 17
+      Top = 136
+      Width = 40
+      Caption = '#10'
+      OnChange = Edit1Change
+      TabOrder = 6
+    end
+    object Label5: TLabel
+      Left = 160
+      Height = 14
+      Top = 208
+      Width = 140
+      Caption = 'Фильтр приема текстовый:'
+      ParentColor = False
+    end
+    object Edit3: TEdit
+      Left = 160
+      Height = 21
+      Top = 224
+      Width = 200
+      OnChange = Edit3Change
+      TabOrder = 7
+    end
+    object Label6: TLabel
+      Left = 7
+      Height = 14
+      Top = 248
+      Width = 265
+      Caption = 'Фильтр байтовый  (через запятую, # или $ в Hex) :'
+      ParentColor = False
+    end
+    object Edit4: TEdit
+      Left = 7
+      Height = 21
+      Top = 264
+      Width = 265
+      OnChange = Edit3Change
+      TabOrder = 8
+    end
+    object CheckBox3: TCheckBox
+      Left = 280
+      Height = 17
+      Top = 264
+      Width = 40
+      Caption = '#13'
+      OnChange = Edit3Change
+      TabOrder = 9
+    end
+    object CheckBox4: TCheckBox
+      Left = 321
+      Height = 17
+      Top = 264
+      Width = 40
+      Caption = '#10'
+      OnChange = Edit3Change
+      TabOrder = 10
+    end
+    object Bevel2: TBevel
+      Left = 7
+      Height = 9
+      Top = 72
+      Width = 352
+      Shape = bsTopLine
+    end
+    object Button2: TButton
+      Left = 293
+      Height = 41
+      Top = 7
+      Width = 67
+      Caption = 'Очистить'
+      OnClick = Button2Click
+      TabOrder = 11
+    end
+    object Button3: TButton
+      Left = 280
+      Height = 40
+      Top = 88
+      Width = 80
+      Caption = 'Послать'
+      Enabled = False
+      OnClick = Button3Click
+      TabOrder = 12
+    end
+    object CheckBox5: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 176
+      Width = 130
+      Caption = 'Отправка по таймеру'
+      OnChange = Edit5Change
+      TabOrder = 13
+    end
+    object Edit5: TEdit
+      Left = 152
+      Height = 21
+      Top = 172
+      Width = 48
+      Alignment = taRightJustify
+      OnChange = Edit5Change
+      TabOrder = 14
+      Text = '1000'
+    end
+    object Bevel3: TBevel
+      Left = 8
+      Height = 9
+      Top = 168
+      Width = 352
+      Shape = bsTopLine
+    end
+    object Label7: TLabel
+      Left = 208
+      Height = 14
+      Top = 176
+      Width = 72
+      Caption = 'мили секунды'
+      ParentColor = False
+    end
+    object Bevel4: TBevel
+      Left = 7
+      Height = 9
+      Top = 200
+      Width = 352
+      Shape = bsTopLine
+    end
+    object CheckBox6: TCheckBox
+      Left = 7
+      Height = 17
+      Top = 216
+      Width = 134
+      Caption = 'Отправка при приеме:'
+      OnChange = CheckBox6Change
+      TabOrder = 15
+    end
+    object Bevel5: TBevel
+      Left = 7
+      Height = 9
+      Top = 296
+      Width = 352
+      Shape = bsTopLine
+    end
+    object CheckBox7: TCheckBox
+      Left = 8
+      Height = 17
+      Top = 52
+      Width = 90
+      Caption = 'Эхо отправки'
+      TabOrder = 16
+    end
+    object CheckBox8: TCheckBox
+      Left = 113
+      Height = 17
+      Top = 52
+      Width = 78
+      Caption = 'Эхо приема'
+      TabOrder = 17
+    end
+    object CheckBox9: TCheckBox
+      Left = 209
+      Height = 17
+      Top = 52
+      Width = 69
+      Caption = 'Вести лог'
+      TabOrder = 18
+    end
+    object Label8: TLabel
+      Left = 7
+      Height = 16
+      Top = 304
+      Width = 346
+      AutoSize = False
+      ParentColor = False
+    end
+    object Label9: TLabel
+      Left = 7
+      Height = 16
+      Top = 320
+      Width = 346
+      AutoSize = False
+      ParentColor = False
+    end
+  end
+  object Memo1: TMemo
+    Left = 368
+    Height = 533
+    Top = 0
+    Width = 422
+    Align = alClient
+    OnChange = Memo1Change
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+  end
+  object BComPort1: TBComPort
+    BaudRate = br9600
+    ByteSize = bs8
+    CustomBaudRate = 9600
+    DataPacket.Enabled = False
+    DataPacket.IncludeStrings = True
+    DataPacket.MaxBufferSize = 1024
+    DataPacket.PacketSize = 0
+    InBufSize = 2048
+    OutBufSize = 2048
+    Parity = paNone
+    Port = 'COM1'
+    StopBits = sb1
+    SyncMethod = smNone
+    ThreadPriority = tpNormal
+    Timeouts.ReadInterval = -1
+    Timeouts.ReadTotalMultiplier = 0
+    Timeouts.ReadTotalConstant = 0
+    Timeouts.WriteTotalMultiplier = 100
+    Timeouts.WriteTotalConstant = 1000
+    OnRxChar = BComPort1RxChar
+    left = 16
+    top = 320
+  end
+  object Timer1: TTimer
+    Enabled = False
+    OnTimer = Button3Click
+    left = 75
+    top = 320
+  end
+  object IniPropStorage1: TIniPropStorage
+    StoredValues = <>
+    IniFileName = 'TestCOM.ini'
+    left = 136
+    top = 320
+  end
+  object Timer2: TTimer
+    Enabled = False
+    OnTimer = Timer2Timer
+    left = 208
+    top = 320
+  end
+end
