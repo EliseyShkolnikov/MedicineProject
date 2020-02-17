@@ -20,15 +20,15 @@ class Main(QWidget):
 
     def show_alarm(self):
         # con.close()
-        db = "notifications_list.db"  # Название базы данных
-        con = sqlite3.connect(db)
+        # db = "ССМ.db"  # Название базы данных
+        # con = sqlite3.connect(db)
         cur = con.cursor()
-        cur.execute('SELECT * FROM notifications')
+        cur.execute('SELECT * FROM coupons')
         while True:
             row = cur.fetchone()
             if row == None:
                 break
-            to_return = row[1]
+            to_return = f"{row[0]}, {row[1]}"
             break
         return(to_return)
 
