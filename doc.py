@@ -246,7 +246,8 @@ class Example(QWidget):
             row = cur.fetchone()
             if row == None:
                 break
-            self.textbox.setText(f"Пациент:\n{row[1]}")  # оптимизировать
+        # оптимизировать
+        self.textbox.setText(f"Пациент:\nШкольников Елисей Антонович")
 
 
 class Medcard(QWidget):
