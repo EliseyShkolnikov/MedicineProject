@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="TestCOM.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="TestCOM"/>
+        <UsageCount Value="82"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="unit1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="164"/>
+        <CursorPos X="61" Y="192"/>
+        <UsageCount Value="82"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\components\BComPort\Demo\BComPort_Demo\MainDemo.dfm"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\components\BComPort\BCPort.pas"/>
+        <UnitName Value="BCPort"/>
+        <TopLine Value="643"/>
+        <CursorPos X="1" Y="829"/>
+        <UsageCount Value="41"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\lcl\inipropstorage.pas"/>
+        <UnitName Value="IniPropStorage"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="243"/>
+        <CursorPos X="1" Y="273"/>
+        <UsageCount Value="6"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\inc\systemh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1002"/>
+        <CursorPos X="44" Y="1011"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\include\customcheckbox.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="98"/>
+        <CursorPos X="1" Y="123"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2208"/>
+        <CursorPos X="1" Y="2234"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="453"/>
+        <CursorPos X="1" Y="475"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1346"/>
+        <CursorPos X="18" Y="1386"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32listsl.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="149"/>
+        <CursorPos X="67" Y="160"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\fpc\2.6.2\source\rtl\objpas\sysutils\sysstrh.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="214"/>
+        <CursorPos X="10" Y="119"/>
+        <UsageCount Value="11"/>
+      </Unit11>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectSession>
+</CONFIG>
